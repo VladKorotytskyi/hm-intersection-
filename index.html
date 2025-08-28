@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Ліниве завантаження зображень</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Приклад лінивого завантаження</h1>
+
+  <!-- Картинка із заглушкою (data-src з реальною картинкою) -->
+  <img data-src="https://picsum.photos/id/1018/600/400" alt="Фото 1" src="placeholder.jpg">
+  <img data-src="https://picsum.photos/id/1015/600/400" alt="Фото 2" src="placeholder.jpg">
+  <img data-src="https://picsum.photos/id/1020/600/400" alt="Фото 3" src="placeholder.jpg">
+
+  <button id="loadBtn">Завантажити всі зображення вручну</button>
+
+  <script src="lazyload.js"></script>
+</body>
+</html>
